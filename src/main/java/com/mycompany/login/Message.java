@@ -33,7 +33,7 @@ public class Message {
     private final String text;
     private final String messageHash;
  
-    // Normal constructor: ID and number are auto generated
+    // Normal constructor: ID  and number are auto generated
     public Message(String recipient, String text) {
         this(generateID(), nextMessageNumber++, recipient, text);
     }
